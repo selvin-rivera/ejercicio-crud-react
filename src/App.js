@@ -1,13 +1,14 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Usuarios from './Components/Usuarios';
+import Users from './Components/Users';
+
 
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-          <Route path='/' element={<Usuarios/>} />
+          <Route path='/' element={<Users/>} />
       </Routes>
     </BrowserRouter>
   );
